@@ -8,3 +8,21 @@ minikube status
 minikube dashboard
 
 ```
+
+Command to delete Minikube:
+
+```
+minikube delete
+
+```
+
+### Deploying Nginx App
+
+Create a deployment for the Nginx app using the Nginx image:
+
+```
+kubectl create deployment my-nginx --image=nginx:latest
+
+```
+
+
